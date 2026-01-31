@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
+    <meta name="keywords" content="HTML5, CSS3, JavaScript"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cheatsheet/">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+     <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="cheatsheet.js"></script>
+    <title>Home page</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    
+
+
+    
+</head>
+<body>
+  <header class="py-3">
+  <div class="container bg-light p-4 rounded shadow-sm">
+  
+    <div class="row">
+    <div class="col-md-6 text-primary">
+    <a class="navbar-brand media p-3" href="javascript:void(0)" onClick="show_d(aboutus);">
+        <img src="footvolei.jpg" class="rounded-circle" alt="logo" style="width:100px;">
+        <div class="media-body">
+          <h4>Назва клубу</h4>
+        </div>
+    </a>
+    </div>
+    <div class="col-md-6 d-flex justify-content-end align-items-center">
+    <p><b>телефон :</b> 563728129191<br> <b>telegram:</b>____________________<br><b>viber:</b>________________________</p>
+    </div>
+    </div>
+    <div class="timetable">
+      <div class="timetable__title">График работы:</div>
+      <div class="timetable__text"><p><strong>Будние:</strong> 08:00&ndash;22:00</p>
+
+      <p><strong>Сб, Вс:</strong> 08:00&ndash;22:00</p>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <div class="container">
+      <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item">
+          <a class="nav-link active" href="javascript:void(0)" onClick="show_d(razdely);">Разделы по видам спорта</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" onClick="show_d(arenda);">Аренда инвентаря</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" onClick="show_d(treners);">Тренерский состав</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" onClick="show_d(aboutus);">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" onClick="show_d(contacts);">Контакты</a>
+        </li>
+    </ul>
+  </div>
+
+
+
+
+ <!--  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+
+      <a class="p-2 text-muted" href="#">Разделы по видам спорта</a>
+      <a class="p-2 text-muted" href="#myModal1">Запись на тренировку</a>
+      <a class="p-2 text-muted" href="#">Аренда инвентаря</a>
+      <a class="p-2 text-muted" href="#">О нас</a>
+      <a class="p-2 text-muted" href="#">Контакты</a>
+    </nav>
+  </div> -->
+  </div>
+
+
+<main role="main" class="container" >
+
+<!-- ===============================page home=================================== -->
+
+  <div class="container marketing" id="razdely" style="position:relative;  z-index:1; color: navy">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" >
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Пляжный теннис.</h2>
+        <p class="lead">Пляжный теннис — это смесь классического тенниса, волейбола и бадминтона,
+      зародившаяся в Италии в 70-х годах 20 века, где игроки на песке перебрасывали мяч специальными ракетками без струн. Правила включают игру с лёта, отсутствие переигровки мяча, корт 16x8 м с сеткой 1,7 м, а счет ведется без правила "ровно" (победа после "40-40" с первого же розыгрыша). Игра популярна благодаря доступности и возможности играть в любом возрасте, а Международная федерация тенниса (ITF) официально признала его в 2007 году, запустив мировую серию турниров. Команды: Чаще играют парами (2x2), но возможны и одиночные матчи (1x1). 
+</p>
+      </div>
+      <div class="col-md-5">
+        <a class="nav-link " href="#myModal1" data-toggle="modal" data-target="#myModal1">
+          <img src="tenis.jpg" width="430" height="430">
+        </a>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Пляжный волейбол.</h2>
+        <p class="lead">Пляжный волейбол — это командная игра на песчаной площадке, возник он в начале 1920-х в Калифорнии, эволюционировав из семейных развлечений в профессиональный олимпийский вид спорта.
+        В 1930-х годах игра стала популярной, а в 1947 году прошел первый официальный турнир.
+        В 1986 году признан международным видом спорта, а в 1996 году дебютировал на Олимпийских играх в Атланте. 
+        Основные правила:
+        Команды: Две команды по 2 игрока.
+        Площадка: Песчаная, 16x8 метров, с сеткой высотой 2,43 м (мужчины) и 2,24 м (женщины).
+        Касания: Допускается максимум три касания мяча на команду (плюс блок), мяч перебрасывается через сетку.
+        Счет: Матч до победы в двух партиях. Партии до 21 очка, решающая – до 15. Победа с разницей минимум в 2 очка (например, 21:19), если счет 20:20, игра продолжается до преимущества в 2 очка (22:20).
+        Особенности: Нет строгих позиций, игроки меняются ролями. Разрешены особые приемы, например, «томагавк» для защиты от сильных ударов. 
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1" >
+        <a class="nav-link " href="#myModal2" data-toggle="modal" data-target="#myModal2">
+          <img src="voleibol.jpg" width="430" height="430">
+        </a>
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Пляжный футбол.</h2>
+        <p class="lead">Пляжный футбол — динамичная командная игра на песке, возникшая в Бразилии в 1920-х годах, с правилами, адаптированными из классического футбола ставшая популярной благодаря участию звезд и проведению Чемпионатов мира под эгидой ФИФА с 2000-х.
+        История возникновения
+
+        Впервые пляжный футбол появляется в 1920-е годы на песчаных пляжах бразильского Рио-де-Жанейро. В 1957 году там состоялся первый футбольный турнир на песке[4]. Пляжный футбол в это время не имел унифицированных правил, а энтузиасты играли в него по правилам обычного футбола. 
+        В 1992 году в Лос-Анджелесе группа под руководством Джанкарло Синьорини утвердила первые официальные правила, а маркетинговое агентство Koch Tavares начало проводить чемпионаты мира, привлекая звезд футбола (Зико, Ромарио).
+        В 2000-е ФИФА начала сотрудничать с Всемирной организацией пляжного футбола (BSWW), взяв под свое крыло Чемпионат мира, что привело к его глобальному росту. 
+        Основные правила и особенности
+        Площадка: Песочная площадка (обычно 36x26 м) с воротами.
+        Команды: 5 игроков (4 полевых + 1 вратарь), замены неограниченны.
+        Мяч: Специальный мяч, чуть меньше стандартного.
+        Игра: Разрешены удары ногами, головой, грудью, руками - только вратарю. Акцент на ударах через себя (ножницы, бисиклеты), что делает игру зрелищной.
+        Время: 3 периода по 12 минут "чистого" времени, с остановками.
+        Штрафные и пенальти: Пенальти бьет вратарь с центра поля (для штрафных и пенальти),.
+        Особенности: Быстрый темп, высокий % голов, акробатика, игра без шипов. 
+        </p>
+      </div>
+      <div class="col-md-5">
+        <a class="nav-link " href="#myModal3" data-toggle="modal" data-target="#myModal3">
+          <img src="footbol.jpg" width="430" height="430">
+        </a>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Пляжный футволей.</h2>
+        <p class="lead">Футволей сочетает в себе правила, которые основаны на правилах пляжного волейбола и правилах футбола. По сути, футволей является пляжным волейболом, только игроки не могут использовать кисти рук и волейбольный мяч заменен на футбольный. 
+        Футволей был придуман в Бразилии Октавио де Мораэсом в 1965 году в Рио-де-Жанейро на пляже Копакабана. 
+        Размер корта составляет 9×18 метров. Официальные международные правила устанавливают высоту 2,2 метра для мужчин и 2 метра для женщин. Очки начисляются, если мяч упадет на землю в зоне противников, если противники совершат ошибку или если им не удастся вернуть мяч через сетку. Подсчёт очков производится по системе «ралли-пойнт» (новые правила волейбола). Количество сетов и очков в сете устанавливаются организатором турнира. Обычно матчи проходят в один сет до 18 очков или в три сета до 15 очков (с третьего сета до 11 очков). С момента создания этого вида спорта крупные мероприятия прошли во многих городах и на пляжах по всему миру, в том числе в Испании, Португалии, Греции, ОАЭ, Франции, Нидерландах, Арубе, Таиланде, Южной Африке, Парагвае и т. д., а также на родине футволея — в Бразилии. 
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1" >
+        <a class="nav-link " href="#myModal4" data-toggle="modal" data-target="#myModal4">
+          <img src="footvolei1.jpg" width="430" height="430">
+        </a>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+  </div>
+  </div><!-- /.container -->
+    <!-- =========================The Modal======================= -->
+
+  <div class="modal fade modal-fullscreen" id="myModal1" tabindex="-1" data-bs-keyboard="false" aria-labelledby="myModal1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+    
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h1 class="modal-title">Пляжный тенис</h1>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" id="body">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <p class="lead">gchvhb</p>
+            </div>
+            <div class="col-md-5">
+              <img src="tenis.jpg" width="430" height="430">
+            </div>
+          </div>
+          информация о тренерах;
+            <br>
+          возможность записаться к конкретному тренеру.
+
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+          <p>для выхода нажмите <kbd>Esc</kbd> </p>
+        </div>
+        
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title h4" id="exampleModalFullscreenLabel">Пляжный волейбол</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Пляжный волейбол</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h1>Пляжный футбол</h1>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" id="body">
+          <p>Пляжный футбол</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+      </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<div class="modal fade" id="myModal4" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h1>Пляжный футволей</h1>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" id="body">
+          <p>Пляжный футволей</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+      </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="modal fade" id="myModal5">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h1>Запись на тренировку</h1>
+        </div>
+      <!-- ----------------------форма записи на тренировку in modal-------------------   -->
+        <!-- Modal body -->
+        <div class="modal-body" id="body">
+          <div class="container" id="signup" style="position:relative;">
+            <form class="form-block" role="form" method="POST" action="#" >
+              <label for="name" class="mb-2 mr-sm-2">Фамилие Имя Отчество:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="name" placeholder="Фамилие Имя Отчество" name="name">
+              <label for="email2" class="mb-2 mr-sm-2">Вид спорта:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="email2" placeholder="Вид спорта" name="vid">
+              <label for="datatime" class="mb-2 mr-sm-2">Время:</label>
+              <input type="datatime" class="form-control mb-2 mr-sm-2" id="datatime" placeholder="Время" name="time">
+              <label for="phone" class="mb-2 mr-sm-2">Телефон:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="phone" placeholder="Enter phone number" name="phone">
+            <input type="submit" class="btn btn-primary mb-2" value="Отправить заявку">
+            </form>
+          </div>
+          Обязательно указать и учитывать:
+
+          минимальное время аренды корта — 1 час;
+
+          дальше бронирование кратно 30 минутам.
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!-- ===================page Arenda======================================= -->
+                    <!-- слои -->
+<div id="arenda" style="position:relative; display: none; z-index:2; color: navy" >
+<h1>Аренда инвентаря</h1>
+<!-- =-------------поисковичок по буквам-------------= -->
+  <div class="col-4 d-flex justify-content-end align-items-center" >
+        <input class="form-control mr-sm-2" id="myInput" type="text" placeholder="Найти по названию..">
+  
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+
+    </div>
+
+  <br>
+  <!-- =-------------карточки-------------= -->
+<div class="container">
+  <div class="row row-cols-lg-4">
+    <!-- <div class="col col-md-3">  12 / 3 = 4 карточки в ряд --> 
+  <!-- <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"> -->
+<div class="p-2  flex-fill  bg-warning">
+
+    <div class="card-columns bg-primary" id="catalog" > 
+
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Набір для Пляжного Тенісу SANDEVER </h4>
+          <p class="card-text">
+
+            КОМПЛЕКТАЦИЯ<br>
+                2 ракетки и 1 мяч.<br>
+            ВЕС РАКЕТКИ<br>
+                250 г.
+          </p>
+        
+        <img class="card-img-bottom" src="raketka.jpg" alt="Card image" width="100" height="300">
+        <div class="card-footer">
+          <p class="card-text">цена: 50 грн. за годину</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">ПЛЯЖНИЙ ТЕНІС: ДВА-В-ОДНОМУ</h4>
+          <p class="card-text">
+            2 ракетки з присосками, м'ячик
+          </p>
+        </div>
+        <img class="card-img-bottom" src="raketka_prisoska.jpg" alt="Card image" width="100" height="300">
+        <div class="card-footer">
+          <p class="card-text">цена: 50 грн. за годину</p>
+        </div>
+      </div>
+
+      <div class="card" >
+        <div class="card-body">
+          <h4 class="card-title">М'яч  Sandever BTB 100 Foam</h4>
+          <p class="card-text">
+            Малий для пляжного тенісу м'яч: 100,0% спінений поліуретан<br>
+            Розміри:<br>
+            Діаметр - близько 4 см.<br>
+            Вага - 0,035 кг
+          </p>
+        </div>
+        <img class="card-img-bottom" src="bol.jpg" alt="Card image" width="100" height="300">
+        <div class="card-footer">
+          <p class="card-text">цена: 20 грн. за годину</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">М'яч для великого тенісу Profi 1</h4>
+          <p class="card-text">
+            М'яч для великого тенісу Profi виготовлений із гуми та покритий пухнастою повстю 
+            Xарактеристики:<br>
+            Вага 1 м'яча: 58.5 г;<br>
+            Матеріал: войлок, резина.
+          </p>
+        </div>
+        <img class="card-img-bottom" src="bol_tenis.jpg" alt="Card image" width="100" height="300">
+        <div class="card-footer">
+          <p class="card-text">цена: 20 грн. за годину</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">м'яч MINKSA</h4>
+          <p class="card-text">
+            Волейбольний м'яч MINKSA Ukraine Матеріал: PU (поліуретан)<br>
+            Вага: 278г <br>Розмір: 5<br>Діаметр: 21.5см<br>Окружність: 650-660 мм
+          </p>
+        </div>
+        <img class="card-img-bottom" src="bol_volei.jpg" alt="Card image" width="100" height="300">
+        <div class="card-footer">
+          <p class="card-text">цена: 50 грн. за годину</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Wilson AVP Oasis</h4>
+          <p class="card-text">
+            М'яч волейбольний, матеріал EVA (етиленвінілоцетат)<br>
+            Розмір: №5<br>
+            Тип ігрового покриття: Пісок<br>
+            Вага: 280 г<br>
+          </p>
+        </div>
+        <img class="card-img-bottom" src="bol_pliaz.jpg" alt="Card image" width="100" height="300">
+        <div class="card-footer">
+          <p class="card-text">цена: 50 грн. за годину</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Adidas EURO24 </h4>
+          <p class="card-text">
+            М'яч футбольний Adidas EURO24 Fussballliebe League BOX <br>
+            Розмір: №5<br>
+            Материал: Поліуретан<br>
+            Вага: 410 - 450 грам<br>
+          </p>
+        </div>
+        <img class="card-img-bottom" src="bol_foot.jpg" alt="Card image" width="100" height="300">
+        <div class="card-footer">
+          <p class="card-text">цена: 50 грн. за годину</p>
+        </div>
+      </div>
+<!-- =-------------конец карточки-------------= -->
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- ================page treners========================================================== -->
+<div id="treners" style="position:relative; display: none; z-index:3; color: navy">
+  <h1>Тренерский состав</h1>
+   <div class="container marketing" id="razdely" style="position:relative;  z-index:1; color: navy">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" >
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Бах Иван Иванович.</h2>
+        <p class="lead">Мастр спорта по теннису. Серебряный призер олимпиады. Обладатель золотого кубка на первенство по большому тенису New Vasuki. Обладатель золотой недали</p>
+        <p>Группы:<br>
+          <ul>
+            <li>детская 6-12 лет 8.00-10.00</li>
+            <li>средняя 13-16 лет 11.00-14.00</li>
+            <li>взрослая 6-12 лет 15.00-19.00</li>
+          </ul>
+        </p>
+        <a class="nav-link " href="#" data-toggle="modal" data-target="#myModal5">Запись на тренировку</a>
+      </div>
+      <div class="col-md-5">
+        <a class="nav-link " href="#myModal5" data-toggle="modal" data-target="#myModal5">
+          <img src="Bach.jpg" width="430" height="430">
+        </a>
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Шопен Семен Семенович.</h2>
+        <p class="lead">Мастр спорта по теннису. Серебряный призер олимпиады. Обладатель золотого кубка на первенство по большому тенису New Vasuki. Обладатель золотой недали</p>
+        <p>Группы:<br>
+          <ul>
+            <li>детская 6-12 лет 8.00-10.00</li>
+            <li>средняя 13-16 лет 11.00-14.00</li>
+            <li>взрослая 6-12 лет 15.00-19.00</li>
+          </ul>
+        </p>
+        <a class="nav-link " href="#" data-toggle="modal" data-target="#myModal5">Запись на тренировку</a>
+      </div>
+      <div class="col-md-5 order-md-1" >
+        <a class="nav-link " href="#myModal5" data-toggle="modal" data-target="#myModal5">
+          <img src="Chopin.jpg" width="430" height="430">
+        </a>
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Моцарт Спиридон Спиридонович.</h2>
+        <p class="lead">Мастр спорта по теннису. Серебряный призер олимпиады. Обладатель золотого кубка на первенство по большому тенису New Vasuki. Обладатель золотой недали</p>
+        <p>Группы:<br>
+          <ul>
+            <li>детская 6-12 лет 8.00-10.00</li>
+            <li>средняя 13-16 лет 11.00-14.00</li>
+            <li>взрослая 6-12 лет 15.00-19.00</li>
+          </ul>
+        </p>
+        <a class="nav-link " href="#" data-toggle="modal" data-target="#myModal5">Запись на тренировку</a>
+      </div>
+      <div class="col-md-5">
+        <a class="nav-link " href="#myModal5" data-toggle="modal" data-target="#myModal5">
+          <img src="Mozart.jpg" width="430" height="430">
+        </a>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+  </div>
+  </div><!-- /.container -->
+  
+    
+</div>
+<!-- ================page aboutus========================================================== -->
+<div id="aboutus" style="position:relative; display: none; z-index:4; color: navy">
+  <h1>О нас</h1>
+  <p>Наш спортивный комплекс приглашает вас на занятия пляжным волейболом и теннисом в комфортных условиях: потолки 10 м, тёплый пол и уютная атмосфера. На территории работает кофейня для отдыха после игр.</br>
+
+    В 100 метрах — бильярд, настольный теннис, боулинг и тренажёрный зал. Пространство выполнено в спокойных небесных оттенках.</br>
+
+    Доступны тренировки с квалифицированными тренерами по обоим видам спорта. Подходит для любого возраста, программы адаптируются под уровень подготовки каждого.</p>
+    
+</div>
+<!-- ================page contacts========================================================== -->
+<div id="contacts" style="position:relative; display: none; z-index:5; color: navy">
+  <h1>Наши контакты</h1>
+  <div class="contacts-main">
+        <div class="text">
+            <div class="contacts-info">
+                                                                                    <div class="contacts-address contacts-msg-t">
+                <div class="h3">Адрес</div>
+                <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">г. Одесса, ул. Бугаевская, 35</span>
+                </address>
+            </div>
+            </div>        </div>
+    </div>
+
+     <div class="contacts-map-canvas" id="map_canvas" style="height: 600px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41047.85801085912!2d23.562754199999997!3d49.98340105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1767940695231!5m2!1sru!2sua" width="800" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+     </div>
+
+</div>
+
+<!-- ====================================================== -->
+</main><!-- /.container -->
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>
+
+ <script>
+      //  функция делает видимым нужный div
+      function show_d(d)
+      {
+        // alert(d);
+        if (d === razdely){
+          d.style.display='inline';
+          arenda.style.display='none';
+          aboutus.style.display='none';
+          contacts.style.display='none';
+          treners.style.display='none';
+        }
+        else if(d === arenda){
+          d.style.display='inline';
+          razdely.style.display='none';
+          aboutus.style.display='none';
+          contacts.style.display='none';
+          treners.style.display='none';
+        }
+        else if(d === treners){
+          d.style.display='inline';
+          razdely.style.display='none';
+          arenda.style.display='none';
+          aboutus.style.display='none';
+          contacts.style.display='none';
+        }
+        else if(d === aboutus){
+          d.style.display='inline';
+          razdely.style.display='none';
+          arenda.style.display='none';
+          contacts.style.display='none';
+          treners.style.display='none';
+        }
+        else if(d === contacts){
+          d.style.display='inline';
+          razdely.style.display='none';
+          arenda.style.display='none';
+          aboutus.style.display='none';
+          treners.style.display='none';
+        }
+        
+      }
+    </script>
+<!-- ---------------------фильтр--------------- -->
+  <script>
+    $(document).ready(function(){
+      $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#catalog div").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+    </script>
+   
+
+    <script type="application/ld+json">{
+    "@context": "https:\/\/schema.org",
+    "@type": "Organization",
+    "name": "Динамика",
+    "description": "",
+    "logo": "https:\/\/dynamica.od.ua\/content\/images\/2\/200x100l90nn0\/55766068651330.jpg",
+    "url": "https:\/\/dynamica.od.ua\/",
+    "email": "dynamica.od.ua@gmail.com",
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "+380507353535",
+            "contactType": "customer service"
+        }
+    ],
+    "sameAs": [
+        "https:\/\/www.instagram.com\/dynamica_odessa"
+    ],
+    "address": "г. Одесса, ул. Бугаевская, 35"
+}</script> 
+ 
+</body>
+</html>
